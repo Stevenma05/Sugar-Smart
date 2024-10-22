@@ -1,0 +1,166 @@
+/* Container for the Sugar Log component */
+.sugar-log {
+  padding: 20px;
+  max-width: 600px;
+  margin: 20px auto;
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Container */
+.sugar-log-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+/* Input Fields */
+.sugar-log-form input {
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: border-color 0.2s;
+}
+
+.sugar-log-form input:focus {
+  border-color: #4caf50;
+  outline: none;
+}
+
+/* Submit Button */
+.sugar-log-form button {
+  padding: 12px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.sugar-log-form button:hover {
+  background-color: #45a049;
+}
+
+/* Glucose Logs Section */
+.logs-list h3 {
+  color: #333;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.logs-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.logs-list li {
+  background-color: white;
+  margin: 10px 0;
+  padding: 12px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+  color: #555;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Goal Setting Section */
+.goal-setting {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.goal-setting input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+/* Delete Button */
+.delete-button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.delete-button:hover {
+  background-color: #d32f2f;
+}
+
+/* Export Buttons */
+.export-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.export-button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.export-button:hover {
+  background-color: #45a049;
+}
+
+/* Chart Container */
+.chart-container {
+  margin-top: 30px;
+}
+
+/* Responsive Design */
+@media (max-width: 400px) {
+  .sugar-log {
+      padding: 15px;
+      max-width: 100%;
+      margin: 10px;
+  }
+
+  .sugar-log-form input {
+      font-size: 14px;
+      padding: 10px;
+  }
+
+  .logs-list li {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 8px;
+  }
+
+  .delete-button {
+      align-self: flex-end;
+      font-size: 12px;
+      padding: 5px 8px;
+  }
+
+  .export-buttons {
+      flex-direction: column;
+      gap: 10px;
+  }
+
+  .export-button {
+      width: 100%;
+      text-align: center;
+  }
+}

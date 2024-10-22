@@ -1,0 +1,50 @@
+/* Login Container */
+.login-container {
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Error Message */
+  .error-message {
+    color: red;
+    margin-bottom: 10px;
+  }
+  
+  /* Login Form */
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .login-form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* Submit and Toggle Button */
+  .login-form button,
+  .toggle-button {
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .login-form button:hover,
+  .toggle-button:hover {
+    background-color: #45a049;
+  }
+  

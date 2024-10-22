@@ -1,0 +1,63 @@
+/* Main container for the App */
+.App {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  height: 100%;
+}
+
+/* Navigation bar */
+nav {
+  margin-bottom: 20px;
+  text-align: center;
+  background-color: #388e3c;
+  border-radius: 50px;
+  height: fit-content;
+  padding: 15px;
+  align-content: center;
+}
+
+/* Navigation Links */
+nav a {
+  color: #fbfafa;
+  text-decoration: none;
+  font-size: 18px;
+  margin: 0 10px;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: black;
+}
+
+/* Sugar Readings Section */
+.sugar-readings {
+  margin-top: 20px;
+}
+
+.sugar-readings h2 {
+  color: #333;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* List of Sugar Readings */
+.sugar-readings ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sugar-readings li {
+  background-color: white;
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+  color: #555;
+}

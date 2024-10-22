@@ -1,0 +1,96 @@
+/* Container for the entire meal log */
+.meal-log {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Heading for the meal log */
+  .meal-log h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+
+  /* Button styles */
+  .meal-log button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .meal-log button:hover {
+    background-color: #45a049;
+  }
+  
+  .meal-log button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  /* Current meal container */
+  .current-meal {
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .current-meal h3 {
+    color: #555;
+    margin-bottom: 10px;
+    align-content:  center;
+  }
+  
+  /* Image of the meal */
+  .current-meal img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* Link to the recipe */
+  .current-meal a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #4caf50;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .current-meal a:hover {
+    color: #388e3c;
+  }
+  
+  /* Loading and error message styles */
+  .message {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  
+  .message.error {
+    color: red;
+  }
+  
+  .message.loading {
+    color: #555;
+  }
+  
